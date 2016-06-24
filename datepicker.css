@@ -1,0 +1,60 @@
+body{
+	background-color: #fff;
+}
+
+div.calendarContainer{
+	position: absolute;
+	width:200px;
+	min-height: 180px;
+	padding-bottom: 5px;
+	background: #2c3e50;
+	color:#fff;
+	border:solid 1px #2d2d2d;
+	display: none;
+	font-size: 10px;
+	box-shadow: 2px 1px 5px #1D4F73;
+	outline: none;
+}
+
+div.calTop{
+	height: 50px;
+	background:rgba(192, 57, 43,0.9);
+	border-bottom:solid 1px #c0392b;
+}
+
+div.calendarContainer table{
+	width:100%;
+	
+}
+
+div.calendarContainer table td{
+	text-align: center;
+	height: 25px;
+
+}
+
+div.calendarContainer table td a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	text-align: center;
+	line-height: 25px;
+}
+
+a.dayNum:hover{
+	background: #c0392b;
+	font-weight: bold;
+	
+}
+
+.triangle-up { 
+	position: absolute;
+	top:-9px;
+	left:5px;
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent; 
+	border-right: 10px solid transparent; 
+	border-bottom: 10px solid #2c3e50; 
+  z-index: -1}
